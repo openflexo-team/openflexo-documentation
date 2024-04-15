@@ -23,7 +23,7 @@ where
 
 - `visibility` is default (unspecified), 'public', 'protected' or 'private'
 - `cardinality` is \[0,1\] (unspecified), \[0,\*\] or \[1,\*\]
-- \<identifier\> is the name of declared role variable
+- \<identifier\> is the name of declared model slot variable
 - \<metamodelElement_path\> addresses a `T`
 
 ---
@@ -33,7 +33,7 @@ where
 | Property        | Type                    | &nbsp;Required&nbsp;  |
 | --------------- |-------------------------| :------:|
 | `metamodelElement` &nbsp; | `T` &nbsp; | yes |
-| `container` &nbsp; | `Object` &nbsp; | no |
+| `container` &nbsp; | `?` &nbsp; | no |
 | `exampleLabel` &nbsp; | `String` &nbsp; | no |
 | `label` &nbsp; | `String` &nbsp; | no |
 | `transparency` &nbsp; | `Double` &nbsp; | no |
@@ -48,13 +48,7 @@ where
 
 ---
 
-## Examples
-
-
----
-
 ## Javadoc
 
 [org.openflexo.technologyadapter.diagram.fml.ConnectorRole](./apidocs/org/openflexo/technologyadapter/diagram/fml/ConnectorRole.md)
 
-[//]: # --------------------- SEE ALSO

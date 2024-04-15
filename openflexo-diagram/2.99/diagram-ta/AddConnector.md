@@ -3,6 +3,7 @@
 
 <img src="/openflexo-diagram/images/AddConnector_BIG.png" alt="AddConnector"/> This edition primitive addresses the creation of a new connector linking two shapes in a diagram
 
+
 ---
 
 ## Usage
@@ -38,8 +39,6 @@ where
 - `fromShape` : 
 - `toShape` : 
 
----
-
 ## Examples
 
 ```java
@@ -54,12 +53,12 @@ Creates a new connector in Diagram identified by ‘myDiagram’ expression, bin
 
 [org.openflexo.technologyadapter.diagram.fml.editionaction.AddConnector](./apidocs/org/openflexo/technologyadapter/diagram/fml/editionaction/AddConnector.md)
 
-[//]: # --------------------- SEE ALSO
 ---
 
 ## See also
 
-- <img src="/openflexo-diagram/images/ConnectorRole.png" alt="ConnectorRole"/> [ConnectorRole](ConnectorRole.md) : No documentation yet
-- <img src="/openflexo-diagram/images/CreateDiagram.png" alt="CreateDiagram"/> [CreateDiagram](CreateDiagram.md) : This edition primitive addresses the creation of a new diagram.
-- <img src="/openflexo-diagram/images/AddShape.png" alt="AddShape"/> [AddShape](AddShape.md) : This edition primitive addresses the creation of a new shape in a diagram.
-- <img src="/openflexo-diagram/images/GraphicalAction.png" alt="GraphicalAction"/> [GraphicalAction](GraphicalAction.md) : No documentation yet
+ - ‎<img src="/openflexo-diagram/images/ConnectorRole.png" alt="ConnectorRole"/> [ConnectorRole](ConnectorRole.md) : No documentation yet
+ - ‎<img src="/openflexo-diagram/images/CreateDiagram.png" alt="CreateDiagram"/> [CreateDiagram](CreateDiagram.md) : This edition primitive addresses the creation of a new diagram.
+ - ‎<img src="/openflexo-diagram/images/AddShape.png" alt="AddShape"/> [AddShape](AddShape.md) : This edition primitive addresses the creation of a new shape in a diagram.
+ - ‎<img src="/openflexo-diagram/images/GraphicalAction.png" alt="GraphicalAction"/> [GraphicalAction](GraphicalAction.md) : No documentation yet
+
