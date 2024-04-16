@@ -5,6 +5,7 @@
 
 Both the resource and the resource data are created through this action.
 
+
 ---
 
 ## Usage
@@ -32,7 +33,7 @@ DIAGRAM::CreateDiagram(
 where
 
 - \<resourceName_path\> addresses a `String`
-- \<resourceCenter_path\> addresses a `FlexoResourceCenter<? extends Object>`
+- \<resourceCenter_path\> addresses a `FlexoResourceCenter<?>`
 - \<relativePath_path\> addresses a `String`
 
 ---
@@ -42,7 +43,7 @@ where
 | Property        | Type                    | &nbsp;Required&nbsp;  |
 | --------------- |-------------------------| :------:|
 | `resourceName` &nbsp; | `String` &nbsp; | yes |
-| `resourceCenter` &nbsp; | `FlexoResourceCenter<? extends Object>` &nbsp; | yes |
+| `resourceCenter` &nbsp; | `FlexoResourceCenter<?>` &nbsp; | yes |
 | `relativePath` &nbsp; | `String` &nbsp; | yes |
 | `resourceURI` &nbsp; | `String` &nbsp; | no |
 
@@ -52,8 +53,6 @@ where
 - `resourceCenter` : ResourceCenter where the resource should be registered
 - `relativePath` : relative path (relative to the resource center) where the resource should be created
 - `resourceURI` : URI for the resource to be created
-
----
 
 ## Examples
 
@@ -65,6 +64,7 @@ myDiagram = AddDiagram(
 ```
 
 Creates a new Diagram in resource center referenced as 'myRc', in folder '/Diagrams' and with name 'myDiagramName.diagram', and assign this new diagram to ‘myDiagram’
+
 ```java
 myDiagram = DIAGRAM::AddDiagram(
         resourceName='myDiagramName',
@@ -81,11 +81,11 @@ Creates a new Diagram in resource center referenced as 'myRc', in folder '/Diagr
 
 [org.openflexo.technologyadapter.diagram.fml.editionaction.CreateDiagram](./apidocs/org/openflexo/technologyadapter/diagram/fml/editionaction/CreateDiagram.md)
 
-[//]: # --------------------- SEE ALSO
 ---
 
 ## See also
 
-- <img src="/openflexo-diagram/images/TypedDiagramModelSlot.png" alt="TypedDiagramModelSlot"/> [TypedDiagram](TypedDiagramModelSlot.md) : This ModelSlot represents access to a Diagram conform to a DiagramSpecification
-- <img src="/openflexo-diagram/images/FreeDiagramModelSlot.png" alt="FreeDiagramModelSlot"/> [FreeDiagram](FreeDiagramModelSlot.md) : This ModelSlot represents access to a Diagram without any DiagramSpecification conformance
-- <img src="/openflexo-diagram/images/GraphicalAction.png" alt="GraphicalAction"/> [GraphicalAction](GraphicalAction.md) : No documentation yet
+ - ‎<img src="/openflexo-diagram/images/TypedDiagramModelSlot.png" alt="TypedDiagramModelSlot"/> [TypedDiagram](TypedDiagramModelSlot.md) : This ModelSlot represents access to a Diagram conform to a DiagramSpecification
+ - ‎<img src="/openflexo-diagram/images/FreeDiagramModelSlot.png" alt="FreeDiagramModelSlot"/> [FreeDiagram](FreeDiagramModelSlot.md) : This ModelSlot represents access to a Diagram without any DiagramSpecification conformance
+ - ‎<img src="/openflexo-diagram/images/GraphicalAction.png" alt="GraphicalAction"/> [GraphicalAction](GraphicalAction.md) : No documentation yet
+
